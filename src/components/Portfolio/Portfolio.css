@@ -1,0 +1,92 @@
+.t-wrapperP{
+  padding:  0 3rem 0 3rem;;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+.t-headingP{
+  align-self: center;
+}
+.t-headingP>*{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.t-headingP span:nth-of-type(2){
+  color: var(--orange);
+}
+.t-headingP span{
+
+  text-align: center;
+  display: block;
+}
+
+.t-blur1{
+  left: 38rem;
+  top: 16rem;
+}
+.t-blur2{
+  top: 9rem;
+  left: 0;
+}
+.testimonialP{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem;
+  width: 38rem;
+  height: 21rem;
+  /* styles same as work.css */
+  background:  rgba(255, 255, 255, 0.26);
+  border: 7px solid var(--blueCard);
+  box-shadow: var(--boxShadow);
+  border-radius:4rem;
+}
+.testimonialP>img{
+  width: 100%;
+  height: 11rem;
+  margin-bottom: 3rem;
+  border-radius: 3rem;
+  
+  
+}
+.testimonialP>span{
+  color: var(--gray);
+  margin-bottom: 2rem;
+}
+.testimonialP>button{
+  
+  margin-top: 9rem;
+}
+
+
+/* slider */
+.t-wrapperP .swiper {
+  width: 100%;
+  height: 70%;
+}
+
+.t-wrapperP .swiper-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.t-wrapperP .swiper-pagination-bullet-active{
+  background: var(--orange);
+}
+
+@media screen and (max-width: 480px){
+  .t-wrapperP{
+      padding: 0;
+  }
+  .testimonialP>img{
+      width: 70px;
+      height: 70px;
+  }
+}
