@@ -32,7 +32,7 @@ const Intro = () => {
           <span>
            <strong> 
              I am self Thought  Frontend Developer with high level of dedication in web designing
-            and development, producting the Quality work<br/><br/>
+            and development,  producing  Quality work<br/><br/>
              
 I am also Computer Enginering Graduate From Bhair Dar University</strong>
           </span>

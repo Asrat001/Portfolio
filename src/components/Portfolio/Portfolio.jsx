@@ -16,7 +16,7 @@ const Portfolio = () => {
     { img: Maya,
     
       review:
-      "In In This Project I have Design , Develop and Deploy Gust Management System For  Maya Film Production",
+      " in this  have designed, deployed and developed a guest.Management System For  Maya Film Production",
        link: "#",
     },
     { img: Ecommerce,
@@ -27,7 +27,7 @@ const Portfolio = () => {
     },
     { img: GC,
       review:
-      "I Design and Develop this  MERN Project for Graduation Class of  Computer engineering to share there Bucket List   ",
+      "I Designed and Developed this  MERN Project for Graduation Class of  Computer engineering to share there Bucket List   ",
     link: "https://stellular-medovik-8b0071.netlify.app/",
     
     }
