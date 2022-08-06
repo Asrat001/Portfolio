@@ -25,7 +25,7 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-          <strong> I am curntly a freelancer at UPwork and Fiver</strong> 
+          <strong> I am currently a freelancer at UPwork and Fiver</strong> 
             <br />
             <strong>
                and also I am Intern at Exceed It Systems<br/>
